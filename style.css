@@ -65,22 +65,22 @@ nav .List{
     position: relative;
     height: 16px;
     width: 16px;
-    background: #6fd19c;
+    background: #95c6ab;
     border-radius: 50%;  
 }
 .Ring::before{
     border-radius: 50%;
-    background: #30b868;
+    background: #2b6a41;
     position: absolute;
     content: "";
     inset: 3px;  
 }
 .Ring::after{
     border-radius: 50%;
-    background: rgba(48, 184, 104, 0.25);
+    background: rgba(162, 189, 174, 0.25);
     position: absolute;
     content: "";
-    inset: -4px; 
+    inset: -3px; 
 }
 .BannerInfo{
     margin-top: 16px;
