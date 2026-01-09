@@ -83,20 +83,21 @@ nav .List{
     inset: -4px; 
 }
 .BannerInfo{
+    margin-top: 16px;
     font-size: 72px;
     font-style: Bold;
     line-height: 84px;
     font-weight: 700;
 }
-.First{
+.Alpha{
     color:#ffffff;
 }
-.Second{
+.Beta{
     color: #30B868;
 }
 .Pgh{
     color: #ffffff;
-    line-height: 24px;
+    line-height: 38px;
     font-weight: 400;
     text-align: center;
     margin: 16px 295px 32px 295px;
