@@ -116,3 +116,27 @@ nav .List{
     background-color: #1e40af;
     cursor: pointer;
 }
+.NoteInfo{
+    text-align: center;
+    margin: 0 120px 44px 120px;
+}
+.Above{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 78px;
+    color: #001931;
+}
+.HeaderPgh{
+    color: #627382;
+    font-weight: 400;
+    margin-top: 16px;
+    font-size: 16px;
+    line-height: 20px;
+}
+.IdeaCard{
+    display: flex;
+    gap: 24px;
+    text-align: center;
+    margin-left:120px;
+    margin-right: 120px; 
+}
