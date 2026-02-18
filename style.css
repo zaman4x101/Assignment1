@@ -209,7 +209,7 @@ nav button{
         height: 300px;
         border: none;
         border-radius: 8px;
-        /* box-shadow: 0px 0px 8px #000000; baki*/
+        box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.06);
     }
     .imgdiv{
         height: 60px;
@@ -298,11 +298,6 @@ nav button{
         line-height: 20px;
         font-weight: 500;
     }
-
-
-    .point{
-
-    }
     .line{
         gap: 6px;
         display: flex;
@@ -311,4 +306,81 @@ nav button{
     #linegap{
         margin-top: 16px;
         margin-bottom: 16px;
+    }
+    .eas{
+        height: 384px;
+        width: 1360px;
+        margin: 2px 120px 120px 120px;
+        padding: 80px 40px;
+        background-color: rgba(247, 246, 242, 1);
+        text-align: center;
+    }
+    .eas h2{
+        font-size: 40px;
+        font-weight: bold;
+        margin-bottom: 16px;
+        color: rgba(0, 25, 49, 1);
+    }
+    .eas h6{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        color: #627382;
+        margin-bottom: 24px;
+    }
+    .eas button{
+        color: #FFFFFF;
+        width: 194px;
+        height: 52px;
+        background-color: #30B868;
+        border-radius: 4px;
+        border: none;
+        font-size: 16px;
+        cursor: pointer;
+        margin-bottom: 16px;
+    }
+    .eas i{
+        margin-left: 10px;
+        transform: rotate(-90deg);
+    }
+    .eas footer{
+        font-size: 16px;
+        line-height: 20px;
+        font-weight: 400;
+        color: #627382;
+    }
+    .endfoot{
+        height: 348px;
+        background-color: rgba(0, 25, 49, 1);
+        padding: 120px 120px 30px 120px;
+    }
+    .flogo{
+        color: rgba(255, 255, 255, 1);
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 80px;
+    }
+    .socialL p{
+        margin-bottom: 16px;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 28px;
+    }
+    .socialL i{
+        margin-right: 16px;
+    }
+    .eeff{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: rgba(250, 250, 250, 1);
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 400;
+    }
+    .endfoot hr{
+        opacity: 20%;
+        border: 1px solid rgba(229, 231, 235, 1);
+        width: 1360px;
+        margin-bottom: 30px;
     }
