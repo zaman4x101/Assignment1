@@ -1,0 +1,173 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    max-width: 1600px;
+    margin: 0 auto;
+    width: 100%;
+}
+nav{
+    padding: 16px 120px 16px 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    height: 60px;
+    width: 139px;
+}
+nav ul{
+    margin-top: 18px;
+    margin-bottom: 18px;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 32px;
+    font-weight: 500;
+    font-size: 16px;
+
+}
+nav button{
+    width: 164px;
+    height: 44px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #30B868;
+    color: rgba(255, 255, 255, 1);
+    border: none;
+    border-radius: 4px;
+    padding: 12px 16px;
+    gap: 10px;
+}
+.banner{
+    height: 674px;
+    /* position: relative; */
+
+    padding: 115.5px 120px 179.5px 120px;/*  an important thing happened here */
+    background-image: url(assets/hero-bg.png);
+}
+.bannerCont{
+    text-align: center;
+    /* margin: 115.5px 120px 179.5px 120px; */
+    /* position: absolute;
+    left: 50%;
+    transform: translateX(-50%); */
+}
+.cirbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.circont{
+    display: flex;
+    align-items: center;
+    width: 229px;
+    height: 35px;
+    background-color: #FFFFFF;
+    font-size: 16px;
+    color: #30B868;
+    border: none;
+    border-radius: 1000px;
+    margin-bottom: 16px;
+}
+.ho{
+    font-size: 34px;
+}
+.bannerCont .firho{
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bannerCont .secho{
+    color: #30B868;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 16px;
+}
+
+.bannerCont .p{
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 32px;
+}
+.btnBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 12px 16px;
+}
+.firstBtn{
+    color: #FFFFFF;
+    width: 251px;
+    height: 52px;
+    background-color: #30B868;
+    border-radius: 4px;
+    border: none;
+    font-size: 16px;
+}
+.firstBtn i{
+    margin-left: 10px;
+    transform: rotate(-90deg);
+}
+.SecondBtn{
+    background-color: transparent;
+    color: #FFFFFF;
+    border-radius: 4px;
+    width: 198px;
+    height: 52px;
+    border: 2px solid #FFFFFF;
+    padding: 16px;
+    font-size: 16px;
+}
+.SecondBtn i{
+    margin-right: 10px;
+}
+/* circle thing */
+.circle-container {
+        position: relative;
+        width: 16px;      /* Adjust based on largest circle */
+        height: 16px;     /* Adjust based on largest circle */
+        margin: 9.5px 6px 9.5px 12px;
+    }
+    
+    .circle {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%); /* This centers them perfectly */
+        border-radius: 50%;
+    }
+    
+    .small {
+        width: 6px;
+        height: 6px;
+        background-color: rgb(48, 184, 104);  /* Dark green - top */
+        z-index: 3;        /* Highest z-index = on top */
+    }
+    
+    .medium {
+        width: 12px;
+        height: 12px;
+        background-color: rgb(162, 204, 179); /* Medium green - middle */
+        z-index: 2;
+    }
+    
+    .large {
+        width: 16px;
+        height: 16px;
+        background-color: rgb(209, 226, 216); /* Light green - bottom */
+        z-index: 1;        /* Lowest z-index = at bottom */
+    }
