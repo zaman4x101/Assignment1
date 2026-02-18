@@ -42,6 +42,7 @@ nav button{
     border-radius: 4px;
     padding: 12px 16px;
     gap: 10px;
+    cursor: pointer;
 }
 .banner{
     height: 674px;
@@ -117,6 +118,7 @@ nav button{
     border-radius: 4px;
     border: none;
     font-size: 16px;
+    cursor: pointer;
 }
 .firstBtn i{
     margin-left: 10px;
@@ -131,6 +133,7 @@ nav button{
     border: 2px solid #FFFFFF;
     padding: 16px;
     font-size: 16px;
+    cursor: pointer;
 }
 .SecondBtn i{
     margin-right: 10px;
@@ -170,4 +173,142 @@ nav button{
         height: 16px;
         background-color: rgb(209, 226, 216); /* Light green - bottom */
         z-index: 1;        /* Lowest z-index = at bottom */
+    }
+    /* banner section ends here */
+    .note{
+        margin: 0px 120px 120px 120px;
+    }
+    .title{
+        max-height: 116px;
+        padding-top: 68px;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        font-size: 48px;
+        font-weight: bold;
+        margin-bottom: 16px;
+        color: #001931;
+    }
+    .subtitle{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        line-height: 20px;
+        font-size: 16px;
+        color: #627382;
+        margin-bottom: 44px;
+    }
+    .notecard{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 24px;
+    }
+    .card{
+        width: 322px;
+        height: 300px;
+        border: none;
+        border-radius: 8px;
+        /* box-shadow: 0px 0px 8px #000000; baki*/
+    }
+    .imgdiv{
+        height: 60px;
+        width: 60px;
+        border: none;
+        border-radius: 50%;
+        background-color: #F95555;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 69.5px 131px 16px 131px;
+    }
+    #card .imgdiv{
+        margin: 55px 131px 16px 131px;
+    }
+    .card h3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0px 24px 16px 24px;
+        font-size: 24px;
+        font-weight: 600;
+        width: 274px;
+        height: 29px;
+    }
+    #card h3{
+        height: 58px;
+        width: 274px;
+        text-align: center;
+    }
+    .card p{
+        margin: 0px 24px 69.5px 24px;
+        width: 274px;
+        height: 40px;
+        font-size: 16px;
+        line-height: 20px;
+        color: #627382;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center
+    }
+    .brain{
+        display: flex;
+        align-items: center;
+        gap: 60px;
+        max-width: 1360px;
+        max-height: 600px;
+        margin: 0px 120px 120px 120px;
+    }
+    .brainimg img{
+        height: 600px;
+        width: 600px;
+        border-radius: 12px;
+    }
+    .brainmsg{
+        width: 700px;
+        height: 396px;
+        /* margin: 102px 0px 102px 0px; */
+    }
+    .brainmsg h6{
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 20px;
+        margin-bottom: 16px;
+        color: #30B868;
+    }
+    .brainmsg h2{
+        font-size: 48px;
+        font-weight: 700;
+        margin-bottom: 16px;
+    }
+    .brainmsg .des{
+        font-size: 16px;
+        /* line-height: 20px; */
+        font-weight: 400;
+        color: #627382;
+        margin-bottom: 40px;
+    }
+    .tik img{
+        height: 20px;
+        width: 20px;
+    }
+    .tiktext{
+        font-size: 16px;
+        line-height: 20px;
+        font-weight: 500;
+    }
+
+
+    .point{
+
+    }
+    .line{
+        gap: 6px;
+        display: flex;
+        align-items: center;
+    }
+    #linegap{
+        margin-top: 16px;
+        margin-bottom: 16px;
     }
